@@ -1,6 +1,6 @@
 // ts-ignore
 'use client'
-import { Button } from "./ui/Button";
+// import { Button } from "./ui/Button";
 
 const Nav = () => {
     const navList = [
