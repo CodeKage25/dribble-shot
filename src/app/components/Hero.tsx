@@ -11,8 +11,8 @@ const Hero = () => {
                     Figma social media content templates for branding marketing insights, and more. Free for personal and commercial use!
                 </p>
                 <div className= "flex gap-8 pt-5">
-                <Button className="" variant="default" size="default">Download Now</Button>
-                <Button className="" variant="default" size="default">See in Action</Button>
+                <Button className="h-[43px]" variant="default" size="default">Download Now</Button>
+                <Button className="h-[43px]" variant="default" size="default">See in Action</Button>
                 </div>
             </div>
             <div>
