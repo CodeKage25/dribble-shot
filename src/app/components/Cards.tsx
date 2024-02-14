@@ -18,7 +18,13 @@ const Cards = () => {
     ]
 
     return (
-        <div className="flex justify-between">
+        <div className="flex justify-center items-center flex-col">
+            <div>
+                <p>
+                Figma Social Feeds is designed for <br/> everyone. Use for whatever you want,<br/> it’s completely free!
+                </p>
+            </div>
+            <div className="flex justify-between">
             {cardList.map((card, id) => (
                 <div key={id} className="flex flex-col justify-center">
                     <div>{card.logo}</div>
@@ -26,6 +32,7 @@ const Cards = () => {
                     <div>{card.description}</div>
                 </div>
             ))}
+        </div>
         </div>
     )
 }
