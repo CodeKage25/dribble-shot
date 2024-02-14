@@ -17,8 +17,8 @@ const Hero = () => {
             </div>
             <div>
                 <div className="flex">
-                    <Image alt="" src="" />
-                    <Image alt="" src="" />
+                    <Image alt="" src="/picture1.png" width={146} height={146} />
+                    <Image alt="" src="/picture2.png" width={227} height={227} />
                     <Image alt="" src="" />
                 </div>
                 <div>
