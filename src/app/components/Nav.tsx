@@ -26,8 +26,8 @@ const Nav = () => {
             <div>
                 Wumbo
             </div>
-            {navList.map((list, key) => (
-                <div className= "flex justify-between">
+            {navList.map((list, id) => (
+                <div key={id} className= "flex justify-between">
                     {list.name}
                 </div>
             ))}

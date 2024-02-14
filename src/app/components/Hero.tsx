@@ -18,13 +18,13 @@ const Hero = () => {
             </div>
             <div>
                 <div className="flex">
-                    <Image src="" />
-                    <Image src="" />
-                    <Image src="" />
+                    <Image alt="" src="" />
+                    <Image alt="" src="" />
+                    <Image alt="" src="" />
                 </div>
                 <div>
-                    <Image src="" />
-                    <Image src="" />
+                    <Image alt="" src="" />
+                    <Image alt="" src="" />
                 </div>
             </div>
         </div>
