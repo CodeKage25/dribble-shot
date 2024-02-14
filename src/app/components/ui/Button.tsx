@@ -32,8 +32,14 @@ const buttonVariants = cva(
   }
 );
 
+interface ButtonProps {
+  className?: string;
+  variant?: "default" | "destructive" | "outline" | "subtle" | "ghost" | "link";
+  size?: string;
+}
+
 const Button = React.forwardRef(
-  ({ className, variant, size, ...props }, ref) => {
+  ({ className, variant = "default", size, ...props }: ButtonProps, ref) => {
     return (
       <button
         className={cn(buttonVariants({ variant, size, className }))}
