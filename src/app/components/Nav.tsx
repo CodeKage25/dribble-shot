@@ -30,7 +30,7 @@ const Nav = () => {
                 </div>
             ))}
             <div>
-                <Button className="h-[43px]">Download</Button>
+                <Button className="h-[43px]" variant="default" size="default">Download</Button>
             </div>
         </div>
     )
