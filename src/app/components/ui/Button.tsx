@@ -32,7 +32,7 @@ const buttonVariants = cva(
     }
   );
   
-  // Define the props interface for the Button component
+ 
   interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
     className?: string;
     variant?: "default" | "destructive" | "outline" | "subtle" | "ghost" | "link";
