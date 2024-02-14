@@ -4,7 +4,7 @@ import Cards from './components/Cards'
 
 export default function Home() {
   return (
-    <main className="p-10">
+    <main className="pt-10">
       <Nav/>
       <Hero />
       <Cards />

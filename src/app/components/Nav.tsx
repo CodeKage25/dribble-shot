@@ -1,5 +1,4 @@
-
-// import { Button } from "./ui/Button";
+import { Button } from "./ui/Button";
 
 const Nav = () => {
     const navList = [
@@ -31,7 +30,7 @@ const Nav = () => {
                 </div>
             ))}
             <div>
-                <button className="bg-white">Download</button>
+                <Button className="bg-white text-blue">Download</Button>
             </div>
         </div>
     )
