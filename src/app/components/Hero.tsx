@@ -4,10 +4,10 @@ const Hero = () => {
     return (
         <div className="flex ">
             <div className="flex flex-col justify between p-5">
-                <h3>
-                    Beautiful Design For Social Media Content
-                </h3>
-                <p>
+                <p clasName="text-[#193766] font-[DM Sans] pb-5 font-bold leading-[4.625rem] leading-10 pb-10">
+                    Beautiful Design<br/> For <u>Social Media</u><br/> Content
+                </p>
+                <p className="pt-5 text-[#697B98]">
                     Figma social media content templates for branding marketing insights, and more. Free for personal and commercial use!
                 </p>
                 <div className= "flex gap-8 pt-5">
