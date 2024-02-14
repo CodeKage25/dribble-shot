@@ -30,7 +30,7 @@ const Nav = () => {
                 </div>
             ))}
             <div>
-                <Button className="bg-white text-blue">Download</Button>
+                <Button className="text-blue">Download</Button>
             </div>
         </div>
     )

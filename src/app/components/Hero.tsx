@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { Button } from "./ui/Button";
 const Hero = () => {
     return (
         <div className="flex ">
@@ -9,9 +10,9 @@ const Hero = () => {
                 <p>
                     Figma social media content templates for branding marketing insights, and more. Free for personal and commercial use!
                 </p>
-                <div className= "flex gap-8">
-                <button className="">Download Now</button>
-                <button>See in Action</button>
+                <div className= "flex gap-8 pt-5">
+                <Button className="">Download Now</Button>
+                <Button>See in Action</Button>
                 </div>
             </div>
             <div>
