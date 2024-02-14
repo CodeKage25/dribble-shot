@@ -39,7 +39,7 @@ const buttonVariants = cva(
     size?: "default" | "sm" | "lg";
   }
   
-  // Define the Button component
+  
   const Button = forwardRef<HTMLButtonElement, ButtonProps>(
     ({ className, variant, size, ...props }, ref) => {
       return (
