@@ -19,8 +19,8 @@ const Cards = () => {
 
     return (
         <div className="flex justify-between">
-            {cardList.map((card) => (
-                <div className="flex flex-col justify-center">
+            {cardList.map((card, id) => (
+                <div key={id} className="flex flex-col justify-center">
                     <div>{card.logo}</div>
                     <div>{card.name}</div>
                     <div>{card.description}</div>
