@@ -1,6 +1,6 @@
-import Nav from './components/Nav.tsx'
-import Hero from './components/Hero.tsx'
-import Cards from './components/Cards.tsx'
+import Nav from './components/Nav'
+import Hero from './components/Hero'
+import Cards from './components/Cards'
 
 export default function Home() {
   return (
