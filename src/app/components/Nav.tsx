@@ -20,7 +20,7 @@ const Nav = () => {
     ]
 
     return (
-        <div className="flex justify-around color-pink">
+        <div className="flex justify-around">
             <div>
                 Wumbo
             </div>
@@ -30,7 +30,7 @@ const Nav = () => {
                 </div>
             ))}
             <div>
-                <Button className="">Download</Button>
+                <Button className="h-[43px]">Download</Button>
             </div>
         </div>
     )
