@@ -24,7 +24,7 @@ const Cards = () => {
                 Figma Social Feeds is designed for <br/> everyone. Use for whatever you want,<br/> it’s completely free!
                 </p>
             </div>
-            <div className="flex justify-between">
+            <div className="flex justify-between pr-5 pl-5">
             {cardList.map((card, id) => (
                 <div key={id} className="flex flex-col justify-center">
                     <div>{card.logo}</div>
